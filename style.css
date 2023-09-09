@@ -129,3 +129,31 @@ a {
         padding-right: 10px;
     }
   }
+
+  @media print {
+    html {
+        font-size: 60%;
+      }
+
+      img {
+        width: 100px;
+      }
+
+    ul {
+        list-style: none;
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 0px;
+      }
+    .stars {
+        position: absolute;
+        left: 25%;
+      }
+    
+      .years {
+        padding-right: 5px;
+    }
+  }
+  
