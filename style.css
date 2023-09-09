@@ -32,3 +32,100 @@ a {
 .years {
     padding-right: 20px;
 }
+
+/* media query for responsive */
+
+/* Extra Large */
+@media (max-width: 1200px) {
+    ul {
+        list-style: none;
+        padding-left: 20px;
+      }
+      
+    li {
+        margin-bottom: 10px; 
+      }
+
+    .stars {
+        position: absolute;
+        left: 35%;
+      }
+    
+      .years {
+        padding-right: 10px;
+    }
+  }
+  
+  /* laptop */
+  @media (max-width: 992px) {
+    html {
+      font-size: 75%;
+    }
+    ul {
+        list-style: none;
+        padding-left: 20px;
+      }
+      
+    li {
+        margin-bottom: 10px; 
+      }
+
+    .stars {
+        position: absolute;
+        left: 40%;
+      }
+    
+      .years {
+        padding-right: 10px;
+    }
+  }
+  
+  /* tablet */
+  @media (max-width: 768px) {
+    html {
+      font-size: 65%;
+    }
+    ul {
+        list-style: none;
+        padding-left: 20px;
+      }
+      
+    li {
+        margin-bottom: 10px; 
+      }
+
+    .stars {
+        position: absolute;
+        left: 40%;
+      }
+    
+      .years {
+        padding-right: 10px;
+    }
+    
+  }
+  
+  /* mobile phone */
+  @media (max-width: 576px) {
+    html {
+      font-size: 60%;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 20px;
+      }
+      
+    li {
+        margin-bottom: 10px; 
+      }
+
+    .stars {
+        position: absolute;
+        left: 35%;
+      }
+    
+      .years {
+        padding-right: 10px;
+    }
+  }
