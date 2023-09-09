@@ -1,3 +1,1 @@
 # My Resume
-
-## HTML only
